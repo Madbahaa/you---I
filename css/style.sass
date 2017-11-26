@@ -1,0 +1,300 @@
+//--------- variables -----------//
+$pink : #d7244a
+$blue: #111d23
+$logo: #bea2a8
+$font : "Calibri"
+$section : 610px
+//------------------------------//
+body
+  margin: 0
+  padding: 0
+  font-family: montserrat
+
+
+.Landing
+  height: $section
+  width: auto
+  background: url(../img/landing.png) fixed
+  background-size: cover
+  background-position: center center
+  background-repeat: no-repeat
+
+
+
+  .nav-bar
+    position: fixed
+    width: 100%
+    z-index: 5
+    height: 65px
+    //background: rgba(black,0)
+    transition: 0.7s
+    text-transform: uppercase
+    //height: 85px
+    margin: 0 auto
+
+    nav
+      text-align: center
+
+      //height: 85px
+      padding: 0
+      a
+        text-decoration: none
+        color: $pink
+        font-size: 14px
+        font-weight: bold
+        display: inline-block
+        margin-right: 50px
+        line-height: 48px
+        margin-top: -55px
+        &:hover
+          color: $logo
+
+      .left-side, .right-side
+        display: inline-block
+        height: 48px
+
+      .right-side a
+        &:last-child
+          margin-right: auto
+
+  .Logo
+    margin-top: -13px
+    display: inline-block
+    text-align: center
+    width: 80px
+    margin-right: 50px
+    h1
+      a
+        margin: 0 auto
+        font-size: 48px
+        color: $logo
+        text-align: center
+
+  .you
+    position: absolute
+    top: 246px
+    left: 0
+    right: 0
+    height: 97px
+
+    h1
+      background: rgba($pink,0.1)
+      margin: 0 auto
+      text-align: center
+      padding: 16px 40px
+      text-transform: uppercase
+      font-size: 48px
+      font-weight: bold
+      height: 50px
+      width: 250px
+      color: $pink
+      border: 10px solid $pink
+
+  #button
+    cursor: pointer
+    height: 24px
+    width: 30px
+    //background: pink
+    position: absolute
+    top: 26px
+    left: 40px
+    .line1
+      display: none
+      height: 3px
+      width: 30px
+      position: absolute
+      top: 0px
+      background: $logo
+      transition: 0.6s
+      border-radius: 2px
+    .line2
+      display: none
+      height: 3px
+      width: 26px
+      position: absolute
+      top: 7px
+      background: $logo
+      transition: 0.1s
+      border-radius: 2px
+    .line3
+      display: none
+      height: 3px
+      width: 30px
+      position: absolute
+      top: 14px
+      background: $logo
+      transition: 0.6s
+      border-radius: 2px
+  .panel
+    position: absolute
+    top : 67px
+    left: 0px
+    right: 0px
+    height: 100px
+    width: 100%
+    margin: 0 auto
+    background: rgba(black,0.85)
+    display: none
+
+    a
+      display: block
+      width: auto
+      color: $pink
+      list-style-type: none
+      text-decoration: none
+      text-align: center
+      padding: 3px 8px
+      border-bottom: 1px solid $blue
+      font-size: 14px
+      font-weight: bold
+      &:hover
+        color: $logo
+
+.about-us
+  height: $section
+  .title
+    padding-top: 60px
+    padding-left: 130px
+    width: 224px
+    h2
+      font-size: 20px
+      font-weight: bold
+      color: $pink
+      margin-bottom: 0
+      text-align: right
+      width: inherit
+      border-bottom: 3px solid $pink
+      text-transform: uppercase
+    p
+      text-transform: uppercase
+      font-size: 18px
+      font-weight: lighter
+      text-align: left
+      color: $logo
+      margin: 0
+      font-family: $font
+  .work-communication
+    margin: 60px 0 0 0
+    height: 350px
+    width: 370px
+    display: inline-block
+    //border-bottom: 3px solid $pink
+
+
+    h3
+      margin-top: 35px
+      text-transform: uppercase
+      color: $pink
+      font-size: 14px
+      font-weight: bold
+      font-family: $font
+    p
+      font-family: $font
+      margin-top: 40px
+      font-size: 14px
+      font-weight: normal
+      text-transform: capitalize
+      text-transform: uppercase
+      //margin-bottom: 95px
+      //border-bottom: 3px solid $pink
+      //border-bottom-width: 80px
+      padding-bottom: 90px
+      width: 345px
+  hr
+    margin: auto
+    width: 200px
+    height: 3px
+    border: none
+    background: $pink
+    text-align: center
+  .margin
+    margin-right: 80px
+  .center
+    margin: 0 auto
+    text-align: center
+.our-team
+  //height: $section
+  background: url(../img/team.png) fixed
+  background-size: cover
+  background-position: center center
+  background-repeat: no-repeat
+
+
+.class1
+  transition: 0.6s
+  transform-origin: 20% 80%
+  transform: rotate(47deg)
+.class2
+  transition: 0.1s
+  visibility: hidden
+
+.class3
+  transition: 0.6s
+  transform-origin: 20% 20%
+  transform: rotate(-47deg)
+.transform1
+
+  transition: 0.7s
+  transform: translate(-600px,0px)
+  opacity: 0
+
+.transform2
+
+  transition: 0.7s
+  transform: translate(-300px,0px)
+  opacity: 0
+
+.background
+  background: rgba(black,0.95)
+  //border-bottom: 2px solid $pink
+
+.our-team
+  overflow: hidden
+  .bubble-container
+    text-align: left
+    height: 403
+    .bubble
+      font-family: $font
+      text-transform: uppercase
+      height: 110px
+      margin: 0 auto
+      width: 500px
+      font-weight: lighter
+
+      .bubble-form
+        position: absolute
+        margin-top: 30px
+        margin-right: 10px
+        display: inline-block
+      .bubble-message
+        padding: 5px
+        display: inline-block
+        background: $blue
+        margin-top: 40px
+        margin-left: 128px
+        width: 380px
+        border-radius: 8px
+        border-top-left-radius: 0
+        a
+          float: right
+          margin-right: 10px
+          text-decoration: none
+          color: $logo
+          &:hover
+            color: $pink
+        h3
+          color: $pink
+          margin: 0 0 0 40px
+        p
+          margin: 0 0 0 40px
+          color: white
+.pix
+  height: 20px
+.pix2
+  height: 60px
+
+.bubble1, .bubble2, .bubble3
+  opacity: 0
+  transition: 0.7s
+  transform: translate(300px,0)
+  //transition-delay: 0.2s

@@ -1,0 +1,134 @@
+@media only screen and (max-width: 825px) {
+  .about-us {
+    height: auto;
+  }
+  .about-us .work-communication {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .about-us .title {
+    padding-left: 20px;
+  }
+  .about-us .title h2 {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 644px) {
+  .about-us {
+    height: auto;
+  }
+  .about-us .work-communication {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .about-us .title {
+    padding-left: 20px;
+  }
+  .about-us .title h2 {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 644px) {
+  .Landing #button .panel {
+    display: none;
+  }
+}
+@media only screen and (max-width: 644px) {
+  .Landing #button .line1 {
+    display: block;
+  }
+  .Landing #button .line2 {
+    display: block;
+  }
+  .Landing #button .line3 {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 556px) {
+  .our-team .bubble-container {
+    height: auto;
+  }
+  .our-team .bubble-container .bubble {
+    width: auto;
+    height: auto;
+  }
+  .our-team .bubble-container .bubble .bubble-form {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .our-team .bubble-container .bubble .bubble-message {
+    border-top-left-radius: 8px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .our-team .bubble-container .bubble .bubble-message a {
+    float: none;
+    margin-right: 0;
+    text-decoration: none;
+    color: #bea2a8;
+  }
+  .our-team .bubble-container .bubble .bubble-message h3 {
+    color: #d7244a;
+    margin: 0;
+  }
+  .our-team .bubble-container .bubble .bubble-message p {
+    margin: 0;
+    color: white;
+  }
+
+  .about-us {
+    height: auto;
+  }
+  .about-us .margin {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 407px) {
+  .our-team .bubble-container .bubble .bubble-message {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 402px) {
+  .Landing .panel {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 355px) {
+  .Landing .You h1 {
+    height: 30px;
+    width: 210px;
+    font-size: 40px;
+    padding: 10px 34px;
+    line-height: 30px;
+  }
+
+  .about-us {
+    height: auto;
+  }
+  .about-us .margin {
+    margin-right: 0;
+  }
+  .about-us .work-communication {
+    width: auto;
+  }
+  .about-us .work-communication p {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 297px) {
+  .Landing .You h1 {
+    width: auto;
+  }
+}
