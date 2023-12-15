@@ -1,14 +1,17 @@
-OUR GAME STORE
+##OUR GAME STORE
 
 
-COLOR PALETTE
+**COLOR PALETTE**
 
 PURPLE :  #8438FF
+
 BLACK:  #070012
+
 WHITE GRAY : #CDCCD0
 
 
-FONTS
+
+**FONTS**
 ```
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +22,7 @@ FONTS
 ```
 
 
-IMAGES
+**IMAGES**
 
 Background image : https://i.ibb.co/z76LYLc/bg.jpg
 
