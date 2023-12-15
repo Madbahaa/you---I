@@ -25,11 +25,17 @@ FONTS
 IMAGES
 
 Background image : https://i.ibb.co/z76LYLc/bg.jpg
+
 Controller image : https://i.ibb.co/Yjr3NB3/controller.png
+
 Queen image: https://i.ibb.co/Tv48Yt1/queen.png
+
 Headphones image : https://i.ibb.co/2FVwHM1/headphones.png
+
 Search image : https://i.ibb.co/9t9PtLD/search.png
+
 Cart image : https://i.ibb.co/1nx1j5d/cart.png
+
 Logo Image : https://i.ibb.co/4sSZR7M/logo.png
 
 
